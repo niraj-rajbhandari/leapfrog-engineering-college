@@ -1,0 +1,164 @@
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu_Light/Ubuntu-Light.eot?") format("eot"), url("../fonts/Ubuntu_Light/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu_Light/Ubuntu-Light.ttf") format("truetype"), url("../fonts/Ubuntu_Light/Ubuntu-Light.svg#Ubuntu-Light") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Champagne__amp__Limousines";
+	src: url("../fonts/Champagne__amp__Limousines/Champagne_Limousines.eot?") format("eot"), url("../fonts/Champagne__amp__Limousines/Champagne_Limousines.woff") format("woff"), url("../fonts/Champagne__amp__Limousines/Champagne_Limousines.ttf") format("truetype"), url("../fonts/Champagne__amp__Limousines/Champagne_Limousines.svg#Candice") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+Champagne__amp__Limousines
+@font-face {
+	font-family: "Roboto-Light";
+	src: url("../fonts/Roboto_Light/Roboto-Light.eot?") format("eot"), url("../fonts/Roboto_Light/Roboto-Light.woff") format("woff"), url("../fonts/Roboto_Light/Roboto-Light.ttf") format("truetype"), url("../fonts/Roboto_Light/Roboto-Light.svg#NeuropolXFree") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, aside, form, input, article, h2, h3, h4, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+}
+body {
+	width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	font-family: Ubuntu, Georgia, Times New Roman, Times, serif;
+	background: url("../image/dotnoise.png");
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.35em;
+}
+h1{
+	font-size: 1.5em;
+}
+body a {
+	color: #000;
+}
+body a:hover {
+	color: #ccaafa;
+}
+
+body footer {
+	border-top: dotted 1px #000;
+}
+
+a:hover, header ul a {
+	color: #111;
+}
+a, header ul li a:hover {
+	color: #ff9300;
+}
+a:hover {
+	text-decoration: underline;
+}
+#header {
+	width: 100%;
+	float: left;
+	/*border-bottom: dotted 1px #000;*/
+	clear: both;
+}
+#header ul {
+	float: right;
+	margin: -80px 0 0 0;
+}
+#header ul li {
+	font-size: small;
+	display: inline;
+	margin: 0 0 0 30px;
+}
+#logo a {
+	float: left;
+	color: #006699;
+	font-family:Champagne__amp__Limousines;
+	margin: -95px 0 40px;
+	font-size: 3em;
+}
+#logo_inner_text a {
+	float: left;
+	color: #006699;
+	margin: -62px 0 40px 1px;
+	font-size: medium;
+	
+}
+
+#logo a:hover {
+	text-decoration: none;
+}
+
+#slider {
+	width: inherit;
+	height: 300px;
+	margin: 150px 0 0;
+	background: #ffffff;
+	box-shadow: 0px -0.5px 7px 1px #1f1f1f;
+}
+
+#main_container {
+	width:inherit;
+	margin: 160px 0px 40px 0px;//top right bottom left
+	
+}
+
+#principal_message
+{
+	width: 500px;
+	float: left;
+}
+#principal_message h1{
+	font-family:Champagne__amp__Limousines;
+	letter-spacing:2;
+	font-weight: 1000;
+}
+#principal_message p{
+	font-size: small;
+	text-indent: 100px;
+	text-align: justify | right;
+	padding:20px 0 0 0;
+	font-family: Roboto-Light;
+	}
+#recent_news_event{
+	font-family:Champagne__amp__Limousines;
+	letter-spacing:2;
+	width:300;
+	margin:0 0 0 100px;
+	float: right;
+	
+}
+#recent_news_event ul{
+	padding: 0px 0 0 20px;
+}
+#recent_news_event ul li{
+	padding: 30px 0 0 0px;
+}
+#quick_links {
+	float:right;
+	width:300;
+	font-family:Champagne__amp__Limousines;
+	margin: 70px 175px 0 100px;
+}
+#quick_links ul{
+	padding: 0px 0 0 20px;
+}
+#quick_links ul li{
+	padding: 30px 0 0 0px;
+}
+footer {
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin: 80px 0 0 0;
+	padding: 80px 0;
+	border-top: dotted 1px #ddd;
+}
+
