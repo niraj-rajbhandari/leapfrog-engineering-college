@@ -34,7 +34,7 @@ body {
 	margin: 0 auto;
 	overflow: auto;
 	font-family: Ubuntu, Georgia, Times New Roman, Times, serif;
-	background: url("../image/dotnoise.png");
+	background: url("../img/dotnoise.png");
 	color: #000;
 	-webkit-text-size-adjust: 100%;
 	line-height: 1.35em;
@@ -65,17 +65,23 @@ a:hover {
 #header {
 	width: 100%;
 	float: left;
+        position:fixed;
+        background: url("../img/dotnoise.png");
 	/*border-bottom: dotted 1px #000;*/
 	clear: both;
+        z-index: 999;
 }
 #header ul {
+    
 	float: right;
-	margin: -80px 0 0 0;
+	margin: -80px 345px 0 0;
+        background-color: #7ab5d3;
+        border-radius: 2px;
 }
 #header ul li {
-	font-size: small;
+	font-size: 11pt;
 	display: inline;
-	margin: 0 0 0 30px;
+	margin: 0 10px ;
 }
 #logo a {
 	float: left;
@@ -83,10 +89,16 @@ a:hover {
 	margin: -95px 0 40px;
 	font-size: 3em;
 }
-#logo_inner_text a {
-	float: left;
+
+#logo font{
+        float: left;
 	margin: -62px 0 40px 1px;
 	font-size: medium;
+        position:relative;
+        top:95px;
+}
+#logo_inner_text a {
+	
 	
 }
 
