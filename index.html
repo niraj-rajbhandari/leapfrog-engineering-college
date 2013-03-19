@@ -11,26 +11,26 @@
     <script>
         $(document).ready(function() {
             $('.carousel').carousel({
-                interval: 2000
+                interval: 4000
             });
-           
+
         });
     </script>
 
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body >
-    
-    
-    
-      
-        
 
-   <div class="header">
-       <div class="logo1"><img src="img/logo1.png"/></div>
+
+
+
+
+
+    <div class="header">
+        <div class="logo1"><img src="img/logo1.png"/></div>
         <div class="logo">
             <a href="index.html" title="home" >Leapfrog<font >College Of Engineering</font></a>
-            
+
         </div>
 
         <ul>
@@ -61,27 +61,27 @@
     <div id='slider'>
         <div class="row-fluid">
             <div class="span12">
-                <div id="this-carousel-id" class="carousel slide "><!-- class of slide for animation -->
+                <div id="myCarousel" class="carousel slide">
+
+                    <!-- Carousel items -->
                     <div class="carousel-inner">
-                        
-                        <div class="item active">
-                            <img src="img/slide1.png" alt="" />
-                            
-                        </div>
-                        <div class="item">
-                            <img src="img/slide2.png" alt="" />
-                            
-                        </div>
-                        <div class="item">
-                            <img src="img/White_flowers_by_Garuna_bor-bor.jpg" alt="" />
-                            
-                        </div>
-                    </div><!-- /.carousel-inner -->
-                    <!--  Next and Previous controls below
-                          href values must reference the id for this carousel -->
-                    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
-                </div><!-- /.carousel -->
+                        <div class="active item slider"><img src="img/slide1.png" alt=""  /></div>
+                        <div class="item slider"><img src="img/slide2.png" alt="" /></div>
+
+
+                    </div>
+
+                    <!-- Carousel nav -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+
+
+                    </ol>
+
+
+                </div>
+
             </div>
         </div>
 
@@ -92,27 +92,29 @@
 
             <div id='principal_message' class="span8">
                 <h1>Message From Principal</h1>
-                <p >
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkasdfasdf
-                    dksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkhasdsfkjdsalfhlsadkjfhlasdk
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjhaldksjfhlkasdjhfklsaj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkjs
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkjs
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
-                    adksfkasdjflkadsjflkjadslfkjasldkfjlasdjflasdkjflkdsfkjdsfjhksadjfhklasjdfkj
+                <div id="principal-pic">
+                    <img src="img/profilepic.png"/>
+                </div>
+                <div id="message-content">
+                    <p id="first-para" >
+                        St. Xavier’s College maintains a very special place in the academic landscape of Nepal. Our great strength lies in our continuous endeavour to rise above the standards of excellence we continuously redefine for ourselves and for the students in turn. In striving to keep ourselves and our students at the helm of the latest in academics and technology, we do not forget that much of what goes into the making of a successful person is a healthy mindset and strong values. In addition to the holistic grooming of our students, we encourage students to pursue their intellectual curiosity, which could most often overstep the boundaries of the classroom.</p>
 
-                </p>
+                    <p>The upkeep of the brand that the Jesuits have laboriously built over the years is anything but easy. And it isn’t any easier on the students who make up this very brand. However, the strength of an indomitable spirit to constantly rise above ourselves is what propels each of us – students and teachers – to never falter in our vision of excellence.</p>
+
+                    <p>With time, all that you have studied and memorised will fade in its grandeur, but what remains are the virtues of tenacity, heroism and a strong sense of justice, among many, that St. Xavier’s imbues in every Xavierian. After your formation in St. Xavier’s, much is expected of you. You are no longer a student, but a Xaverian leader and the solution to many a challenge that plague the society and country as a whole.</p>
+
+                    <p>Welcome to St. Xavier’s College family.</br></br>
+
+                        God bless you.</br>
+
+                     Fr. Augustine Thomas, S.J.</br>
+                        Principal    </br>
+                        St. Xavier's College   </br>
+                        Maitighar, Kathmandu 
+
+                    </p>    
+                </div>
+
             </div>
             <div id='recent_news_event' class="span4">
                 <div class="span4">
@@ -120,7 +122,7 @@
                         <div class="accordion-group">
                             <div class="accordion-heading accordian-head ">
                                 <a class="accordion-toggle events-head accordion-style" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                    <h6>Recent News <i class="icon-plus-sign pull-right"></i></h6>
+                                    <h6>Recent News & Events <i class="icon-plus-sign pull-right"></i></h6>
                                 </a>
                             </div>
                             <div id="collapseOne" class="accordion-body collapse in">
@@ -139,19 +141,15 @@
 
                             <div class="accordion-heading accordian-head">
                                 <a class="accordion-toggle events-head" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                    <h6>Recent Events <i class="icon-plus-sign pull-right"></i></h6>
+                                    <h6>About Us <i class="icon-plus-sign pull-right"></i></h6>
                                 </a>
                             </div>
 
                             <div id="collapseTwo" class="accordion-body collapse">
                                 <div class="accordion-inner">
 
-                                    <li><a href="" class="">Wisdom of The Hills</a></li>
-                                    <li><a href="" class="">NAGDAHA: A Visit to the Snake Lake</a></li>
-                                    <li><a href="" class="">By the Brown Muddy River</a></li>
-                                    <li><a href="" class="">Up & Over to The World Peace Pagoda</a></li>
-                                    <li><a href="" class="">Siddhi Shaligram Briddhashram</a></li>
-
+                                    <li><p>St. Xavier's College, Kathmandu, is an educational institution of higher learning established in 1988 and managed by the Nepal Jesuit Society. Jesuits began their educational work in Nepal in 1951 with the opening of St. Xavier's School, Godavari, followed by St. Xavier's School, Jawalakhel and St. Xavier's School, Deonia. </p></li>
+                                    <li><a href="about_us.html" target="_blank" class="btn btn-mini btn-inverse pull-right">Read More</a>
                                 </div>
                             </div>
 
@@ -161,17 +159,19 @@
                         <div class="accordion-group">
                             <div class="accordion-heading accordian-head">
                                 <a class="accordion-toggle event-head" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                    <h6>Most Commented <i class="icon-plus-sign pull-right"></i></h6>
+                                    <h6>Our Mission<i class="icon-plus-sign pull-right"></i></h6>
                                 </a>
                             </div>
                             <div id="collapseThree" class="accordion-body collapse">
                                 <div class="accordion-inner">
 
-                                    <li><a href="" class="">Kutumba Gears Up for Concert and Album Release</a></li>
-                                    <li><a href="" class="">High in the Saddle: Horse and Windhorse in Nepal</a></li>
-                                    <li><a href="" class="">Interview with Gereon Wagener</a></li>
-                                    <li><a href="" class="">Beware of Babas!</a></li>
-                                    <li><a href="" class="">Abstract of an artist</a></li>
+                                    <li>A passion for excellence</li>
+                                    <li>Compassionate commitment </li>
+                                    <li>Innovative Spirit </li>
+                                    <li>Ability to accept risks and challenges </li>
+                                    <li>Competence </li>
+                                    <li>Creativity  </li>
+                                    
 
                                 </div>
                             </div>
@@ -183,7 +183,7 @@
                 </div>
 
             </div>
-            
+
         </div>    
     </div>
 
