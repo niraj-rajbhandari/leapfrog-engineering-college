@@ -7,69 +7,87 @@ and open the template in the editor.
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link type="text/css" rel="stylesheet" href="css/common.css">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link href="css/common.css" rel="stylesheet">
+
+        <script src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script>
     </head>
-    <body>
+    <body onload="loadInitial();">
         <div class="row-fluid">
             <div class="span12">
                 <div class="span8">
 
                     <div class="news-body" >
 
-                        <div class="news-title">
+                        <div  id="first"class="news-title">
                             <h4>this is the latest news update....
-                                <a href="" title="read more" class="pull-right"> <font> More</font></a></h4>
+                                <input type="button" value="More" class=" btn btn-small pull-right" id="firstNews" onclick="changeContent();"></a></h4>
                             <hr>
 
-                            <p>
-                                we are godsfnarfn akdjfna dif bakfHEUIA VKLFHA IUFA 
-                                lkajdflkdfnalj nfaldfn lihu adnf kadnf afuaehfa nakf a
-                                ad fnaldkbjaifwjn fajbfwie anlafhaufnaj afauhfnaja
-                                nadjbfapfbsn sihbfajarufaeifajkladsfna okfal kdsnvfas odfkmv ajdfnieuo vnk
-                                 akdnjadkfa; fnasdf kn jdnfasfiha njadnv ajd
-                                 ad nakjdlf nadkjvn asdkfa njfniwoe nadksndfif na
-                                 adf nkadfnaksjwoefns kvnqe9fakna efadv
-                                 asf ankdjfa;ldmf asofan vkafnaofjjnfva fjn
-                                 adsf
-                                 afa kalnfas lfansdfaf
-                                 afanfa f'af
-                                 afa nfjalfamfoaiefa ladofadfasfoafafioafnkgnaifkalnf
-                                 f akdlfnamefkangweflma 
-                                 a aoegnalkdfapefoa mkafjpa
-                                 </br>
-                                <a href="" class="btn btn-mini btn-info">read more</a>
-                            </p>
+                            <span id="lessPara"> the leapfrog college is one of the most well known college in the world</span>
+
+                            <span id="One">
+                                we try to accomplish all our task thur the great efficiency. ;ladnfvakj jhnadfkk najnas jnalsfowe anvka fiaknd
+                                kasd akdfla, dvjk
+                                kdladf ankjdfaldfjajvn ajn adjvakgkadsjafdhk alfkna kdjvadflka dnvjakdaoi af
+                                ajdknadakf glanajkga fjakdfah 
+                                adf ajkfabdvknad fajn
+                                df ajkf ,adnfajf afn
+                                </br>
+                                knakd jandkf if dfnkaef afngaef ana fieohabfuia fufibfig efiajbvadyufgah jbafaufba f hajbda 
+                                huaidfb k aoifba dv fka anfjaeiu j ba euja dva aja 
+                                jadjadadfna fafju
+                                </br>
+                                <input type="button" value="Back"class="btn btn-mini btn-info" onclick="loadNull();">
+                            </span>
+
 
                         </div>
-                        <div class="news-title" >
+                        <div  id="second" class="news-title" >
                             <h4>this is the earlier news update....
-                                <a href="" title="read more" class="pull-right"> <font> More</font></a></h4>
+                                <input type="button" value="More" class=" btn btn-small pull-right" id="firstNews" onclick="changeContentShow();"></h4>
                             <hr>
 
-                            <p>
-                                we are godsfnarfn akdjfna dif bakfHEUIA VKLFHA IUFA 
-                                lkajdflkdfnalj nfaldfn lihu adnf kadnf afuaehfa nakf a
-                                ad fnaldkbjaifwjn fajbfwie anlafhaufnaj afauhfnaja
-                                nadjbfapfbsn sihbfajarufaeifaj</br>
-                                <a href="" class="btn btn-mini btn-info">read more</a>
-                            </p>
+                            <span id="lessPara"> the leapfrog college is one of the most well known college in the world</span>
+
+                            <span id="Two">
+                                we try to accomplish all our task thur the great efficiency. ;ladnfvakj jhnadfkk najnas jnalsfowe anvka fiaknd
+                                kasd akdfla, dvjk
+                                kdladf ankjdfaldfjajvn ajn adjvakgkadsjafdhk alfkna kdjvadflka dnvjakdaoi af
+                                ajdknadakf glanajkga fjakdfah 
+                                adf ajkfabdvknad fajn
+                                df ajkf ,adnfajf afn
+                                </br>
+                                knakd jandkf if dfnkaef afngaef ana fieohabfuia fufibfig efiajbvadyufgah jbafaufba f hajbda 
+                                huaidfb k aoifba dv fka anfjaeiu j ba euja dva aja 
+                                jadjadadfna fafju
+                                </br>
+                                <input type="button" value="Back"class="btn btn-mini btn-info" onclick="loadNullValue();">
+                            </span>
 
                         </div>
-                        <div  class="news-title">
+                        <div   id ="third"class="news-title">
                             <h4>this is the oldest news update....
-                                <a href="" title="read more" class="pull-right"> <font> More</font></a></h4>
+                                <input type="button" value="More" class=" btn btn-small pull-right" id="firstNews" onclick="changeContent();"></h4>
                             <hr>
+                            <span id="lessPara"> the leapfrog college is one of the most well known college in the world</span>
 
-
-                            <p>
-                                we are godsfnarfn akdjfna dif bakfHEUIA VKLFHA IUFA 
-                                lkajdflkdfnalj nfaldfn lihu adnf kadnf afuaehfa nakf a
-                                ad fnaldkbjaifwjn fajbfwie anlafhaufnaj afauhfnaja
-                                nadjbfapfbsn sihbfajarufaeifaj</br>
-                                <a href="" class="btn btn-mini btn-info">read more</a>
-                            </p>
-
+                            <span id="Three">
+                                we try to accomplish all our task thur the great efficiency. ;ladnfvakj jhnadfkk najnas jnalsfowe anvka fiaknd
+                                kasd akdfla, dvjk
+                                kdladf ankjdfaldfjajvn ajn adjvakgkadsjafdhk alfkna kdjvadflka dnvjakdaoi af
+                                ajdknadakf glanajkga fjakdfah 
+                                adf ajkfabdvknad fajn
+                                df ajkf ,adnfajf afn
+                                </br>
+                                knakd jandkf if dfnkaef afngaef ana fieohabfuia fufibfig efiajbvadyufgah jbafaufba f hajbda 
+                                huaidfb k aoifba dv fka anfjaeiu j ba euja dva aja 
+                                jadjadadfna fafju
+                                </br>
+                                <input type="button" value="Back"class="btn btn-mini btn-info" onclick="loadNullValueAgain();">
+                            </span>
                         </div>
                     </div>
                 </div>
