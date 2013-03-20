@@ -163,35 +163,27 @@ footer {
     
     color: #1b1b1b;
 }
+.news-body{
+    margin: 20px 20px 0 200px;
+}
 .news-body .news-title{
     height: auto;
 }
-.facilities-info{
-    position:relative;
-    top:-90px;
-    height:150px;
-    margin:10px;
+#container{
+    width: 600px;
+    float: left;
+    margin:0px 53px 0 0px;
 }
-.facility-image{
-    width:150px;
-    height:100px;
-    position:relative;
-    top:110px;
-    margin-top:-10px;
-    margin-left:-50px;
+.academic_ul  h4{
+    font-size: 0.8em;
+    padding: 35px 0 0 35px;
 }
-
-.facility-content .p-facilities{
-    margin-left:155px;
-    position:relative;
-    
+.academic_ul  li{
+    font-size: small;
+    list-style-type: none;
+    padding: 10px 0 0 75px;
 }
-.more-info{
-    margin-left:10px;
-    font-weight: bold;
-    color: #0088cc;
+.explanation{
+    padding-left: 20px;
 }
-.more-info:hover{
-    text-decoration: none;
-    color:#002957; 
-}
+.academic_ul  li a:hover{text-decoration: none;}
