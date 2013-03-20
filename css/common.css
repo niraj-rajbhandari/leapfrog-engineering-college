@@ -58,7 +58,7 @@ a, header ul li a:hover {
 }
 a:hover {
     color: maroon;
-    text-decoration: underline;
+x    text-decoration: underline;
 }
 .header {
     float: left;
@@ -155,9 +155,15 @@ footer {
     list-style-type: none;
     font-size: small;
 }
+.recent_news_event h5:hover{
+    color:maroon;
+}
 #contact-info{
     color: #002957;
     font-size: small;
+}
+#contact-info p:hover{
+    color:#1b1b1b;
 }
 
 
