@@ -166,3 +166,6 @@ footer {
 .news-body .news-title{
     height: auto;
 }
+textarea{
+    width: 50%;
+}
