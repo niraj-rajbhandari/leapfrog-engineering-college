@@ -129,3 +129,11 @@ a:hover {
     text-align: left;
     text-indent: 50px;
 }
+.news-body{
+ 
+    width: 70%;
+    height: auto;
+    margin: -10px 300px 100px 160px;
+    padding: 20px;
+   
+}
