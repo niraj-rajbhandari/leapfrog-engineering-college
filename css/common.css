@@ -166,8 +166,21 @@ footer {
 .news-body .news-title{
     height: auto;
 }
-#gallery_container{
+#container{
     width: 600px;
     float: left;
-    margin:0px 0 0 20px;
+    margin:0px 33px 0 20px;
 }
+.academic_ul  h4{
+    font-size: 0.8em;
+    padding: 35px 0 0 35px;
+}
+.academic_ul  li{
+    font-size: small;
+    list-style-type: none;
+    padding: 10px 0 0 75px;
+}
+.explanation{
+    padding-left: 20px;
+}
+.academic_ul  li a:hover{text-decoration: none;}
