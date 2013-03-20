@@ -187,3 +187,28 @@ footer {
     padding-left: 20px;
 }
 .academic_ul  li a:hover{text-decoration: none;}
+
+.facilities-info{
+    position:relative;
+    height:150px;
+}
+.facility-image{
+    width:150px;
+    height:100px;
+    margin-left:-50px;
+}
+.p-facilities{
+    position:relative;
+    top:-110px;
+    margin-left:160px;
+}
+.more-info{
+    color: #0088cc;
+    margin-left:10px;
+    font-weight: bold;
+}
+.more-info:hover{
+    color:#002957;
+    text-decoration: none;
+    font-weight: bold;
+}
