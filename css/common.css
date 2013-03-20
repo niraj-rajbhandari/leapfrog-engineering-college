@@ -29,9 +29,7 @@ html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, as
     text-decoration: none;
 }
 body {
-    width: 960px;
-    margin: 0 auto;
-    overflow: auto;
+    width: 100%;
     font-family: Ubuntu, Georgia, Times New Roman, Times, serif;
     background: url("../img/dotnoise.png")repeat scroll 0 0 #000000;
     color: #000;
@@ -67,13 +65,13 @@ a:hover {
     background: url("../img/dotnoise.png")repeat scroll 0 0 #000000;
     z-index: 999;
     height: 80px;
-    margin: 0px 0 0 -170px;
+    margin: 0px 0 0 0px;
     width: 100%;
 }
 .header ul {
 
     float: right;
-    margin: 9px 165px 0 0 ;
+    margin: 40px 185px 0 0 ;
 }
 .header ul li {
     font-size: small;
@@ -87,7 +85,7 @@ a:hover {
 .logo a {
     float: left;
     font-family:Champagne__amp__Limousines;
-    margin: -18px 0 0 185px;
+    margin: -8px 0 0 65px;
     font-size: 3em;
 }
 
@@ -111,10 +109,15 @@ a:hover {
 .logo a:hover {
     text-decoration: none;
 }
+.active{
+    color:#0099cc;
+}
 #main_container
 {
     position: relative;
     top: 110px;
+    width:960px;
+    margin: 30px 0 0 150px;
      
 }
 #main_container h1
@@ -125,7 +128,38 @@ a:hover {
     margin-left: 20px;
 }
 .content{
-    padding:20px 50px 0 0;
-    text-align: left;
+
+    padding:0px 50px 0 0;
+    text-align: justify;
     text-indent: 50px;
+    font-size: small;
+}
+.content img{
+    position: relative;
+   left:-50px;
+}
+
+footer {
+    width: 960px;
+    text-align: center;
+    float: left;
+    margin: 165px 0 0 160px;
+    padding: 30px 0 0 0 ;
+    border-top: dotted 1px #ddd;
+}
+.recent_news_event li{
+    list-style-type: none;
+    font-size: small;
+}
+#contact-info{
+    color: #002957;
+    font-size: small;
+}
+
+#contact-info p:hover{
+    
+    color: #1b1b1b;
+}
+.news-body .news-title{
+    height: auto;
 }
