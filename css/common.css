@@ -134,9 +134,12 @@ a:hover {
     text-indent: 50px;
     font-size: small;
 }
-.content img{
+
+
+.content h5{
     position: relative;
-   left:-50px;
+    left:-50px;
+    top:15px;
 }
 
 footer {
@@ -162,4 +165,33 @@ footer {
 }
 .news-body .news-title{
     height: auto;
+}
+.facilities-info{
+    position:relative;
+    top:-90px;
+    height:150px;
+    margin:10px;
+}
+.facility-image{
+    width:150px;
+    height:100px;
+    position:relative;
+    top:110px;
+    margin-top:-10px;
+    margin-left:-50px;
+}
+
+.facility-content .p-facilities{
+    margin-left:155px;
+    position:relative;
+    
+}
+.more-info{
+    margin-left:10px;
+    font-weight: bold;
+    color: #0088cc;
+}
+.more-info:hover{
+    text-decoration: none;
+    color:#002957; 
 }
