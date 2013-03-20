@@ -63,9 +63,13 @@ a:hover {
 x    text-decoration: underline;
 }
 #contact-info{
+   
     color: #002957;
+    font-size: small;
 }
-
+#contact-info p{
+    font-family: Ubuntu,Georgia;
+}
 #contact-info p:hover{
     
     color: #1b1b1b;
@@ -177,7 +181,7 @@ x    text-decoration: underline;
  x   margin:0 0 0 100px;
     float: right;
     position: relative;
-    right:-20px;
+    
     text-decoration: none;
 
 }

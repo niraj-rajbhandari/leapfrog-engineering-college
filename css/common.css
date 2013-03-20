@@ -134,9 +134,12 @@ a:hover {
     text-indent: 50px;
     font-size: small;
 }
-.content img{
+
+
+.content h5{
     position: relative;
-   left:-50px;
+    left:-50px;
+    top:15px;
 }
 
 footer {
@@ -166,6 +169,21 @@ footer {
 .news-body .news-title{
     height: auto;
 }
-textarea{
-    width: 50%;
+#container{
+    width: 600px;
+    float: left;
+    margin:0px 53px 0 0px;
 }
+.academic_ul  h4{
+    font-size: 0.8em;
+    padding: 35px 0 0 35px;
+}
+.academic_ul  li{
+    font-size: small;
+    list-style-type: none;
+    padding: 10px 0 0 75px;
+}
+.explanation{
+    padding-left: 20px;
+}
+.academic_ul  li a:hover{text-decoration: none;}
