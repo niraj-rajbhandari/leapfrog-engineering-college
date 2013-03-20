@@ -135,9 +135,12 @@ a:hover {
     text-indent: 50px;
     font-size: small;
 }
-.content img{
+
+
+.content h5{
     position: relative;
-   left:-50px;
+    left:-50px;
+    top:15px;
 }
 
 footer {
