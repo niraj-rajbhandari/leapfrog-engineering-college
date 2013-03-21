@@ -178,6 +178,12 @@ footer {
 .news-body .news-title{
     height: auto;
 }
+.news-body span{
+    font-size:small;
+}
+.news-body h5{
+    font-size:11pt;
+}
 .news-title .news-content{
     height:400px;
 }
@@ -289,6 +295,10 @@ footer {
 
 .img-about{
     margin-bottom: 10px;
+}
+.btn-news-show{
+    position: relative;
+    top:5px;
 }
 
 
