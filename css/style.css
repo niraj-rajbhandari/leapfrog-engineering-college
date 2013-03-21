@@ -59,9 +59,7 @@ a:hover, header ul a {
 a, header ul li a:hover {
     color: #ff9300;
 }
-a:hover {
-x    text-decoration: underline;
-}
+
 #contact-info{
    
     color: #002957;
@@ -135,7 +133,7 @@ x    text-decoration: underline;
 
 #main_container {
     width:960;
-    margin-top: 20px ;/*top right bottom left*/
+    margin-top: 20px ;
 
 }
 #principal-pic{
@@ -156,13 +154,10 @@ x    text-decoration: underline;
     letter-spacing:2;
     font-weight: 1000;
 }
-/*#principal_message p{
-    font-size: small;
-    text-indent: 100px;
-    text-align: justify ;
-    padding:20px 0 0 0;
 
-}*/
+.active{
+    color:#0099cc;
+}
 #message-content{
     font-size: small;
     text-indent: 50px;
@@ -176,9 +171,7 @@ x    text-decoration: underline;
 }
 #recent_news_event{
     font-family:Champagne__amp__Limousines;
-    letter-spacing:2;
-    width:300;
- x   margin:0 0 0 100px;
+ 
     float: right;
     position: relative;
     
@@ -193,18 +186,17 @@ x    text-decoration: underline;
     color:maroon;
 }
 
-/*#quick_links {
-    float:right;
-    width:300;
-    font-family:Champagne__amp__Limousines;
-    margin: 70px 185px 0 100px;
+.more-info{
+    color: #0088cc;
+    margin-left:10px;
+    font-weight: bold;
 }
-#quick_links ul{
-    padding: 0px 0 0 20px;
+.more-info:hover{
+    color:#002957;
+    text-decoration: none;
+    font-weight: bold;
 }
-#quick_links ul li{
-    padding: 30px 0 0 0px;
-}*/
+
 footer {
     width: 100%;
     text-align: center;
