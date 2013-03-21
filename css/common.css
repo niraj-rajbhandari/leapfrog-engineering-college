@@ -70,10 +70,9 @@ x    text-decoration: underline;
     width: 100%;
 }
 .header ul {
-    position:relative;
-    top:35px;
-    left:255px;
-    
+
+    float: right;
+    margin: 40px 185px 0 0 ;
 }
 .header ul li {
     font-size: small;
@@ -195,7 +194,11 @@ footer {
     font-size: 0.8em;
     padding: 35px 0 0 35px;
 }
-
+.academic_ul  li{
+    font-size: small;
+    list-style-type: none;
+    padding: 10px 0 0 75px;
+}
 .explanation{
     padding-left: 20px;
 }
@@ -281,6 +284,4 @@ footer {
     left:550px;
     top:-485px;
 }
-.img-about{
-    margin-bottom: 10px;
-}
+
