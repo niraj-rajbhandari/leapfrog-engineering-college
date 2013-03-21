@@ -29,9 +29,8 @@ html, body, div, a, p, img, ul, li, footer, header, section, h1, span, a img, as
     text-decoration: none;
 }
 body {
-    width: 960px;
-    margin: 0 auto;
-    overflow: auto;
+    width: 100%;
+    
     font-family: Ubuntu, Georgia, Times New Roman, Times, serif;
     background: url("../img/dotnoise.png")repeat scroll 0 0 #000000;
     color: #000;
@@ -78,13 +77,14 @@ a, header ul li a:hover {
     background: url("../img/dotnoise.png")repeat scroll 0 0 #000000;
     z-index: 999;
     height: 80px;
-    margin: -150px 0 0 -170px;
+    margin: -150px 0 0 0px;
     width: 100%;
 }
 .header ul {
-
-    float: right;
-    margin: 35px 165px 0 0 ;
+    position:relative;
+    top:35px;
+    left:150px;
+    
 }
 .header ul li {
     font-size: 10pt;
@@ -124,16 +124,16 @@ a, header ul li a:hover {
 }
 
 #slider {
-    width: inherit;
+    width: 960px;
     height: 300px;
-    margin: 150px 0 0;
+    margin: 150px 0 0 168px;
     background: #ffffff;
     box-shadow: 0px -0.5px 7px 1px #1f1f1f;
 }
 
 #main_container {
-    width:960;
-    margin-top: 20px ;
+    width:960px;
+    margin: 20px 0 0 170px ;
 
 }
 #principal-pic{
