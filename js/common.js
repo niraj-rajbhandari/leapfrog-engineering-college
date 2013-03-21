@@ -1,5 +1,8 @@
 $(document).ready(function() {
     var nav = $('.header');
+    $('.btn-feedback').click(function(){
+       alert('Your feedback|query has been sent to the concerned personnel.') ;
+    });
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 65) {
@@ -42,46 +45,7 @@ $(document).ready(function() {
 
 });
 
-//function changeContent(){
-//   document.getElementById('One').style.display = 'block'; 
-//     
-//    }
-//
-//function loadNull(){
-//   document.getElementById('One').style.display = 'none';  
-//}
-//function changeContentShow(){
-//   document.getElementById('Two').style.display = 'block'; 
-//     
-//    }
-//
-//function loadNullValue(){
-//   document.getElementById('Two').style.display = 'none';  
-//}
-//function changeContentShowAgain(){
-//   document.getElementById('Three').style.display = 'block'; 
-//     
-//    }
-//
-//function loadNullValueAgain(){
-//   document.getElementById('Three').style.display = 'none';  
-//}
-//function loadInitial(){
-//    document.getElementById('One').style.display = 'none';  
-//     document.getElementById('Two').style.display = 'none'; 
-//      document.getElementById('Three').style.display = 'none';
-//     
-//}
-//jquery for hide and show news division
-//$(document).ready(function() {
-//    $('#showhide').toggle(function() {
-//        $('#showhide').text('ShowMore');
-//        $('#One').hide();
-//    }, function() {
-//        $('#showhide').text('Hide');
-//        $('#One').show();
-//    });
-//});
+
 
 function changeContent() {
     document.getElementById('One').style.display = 'block';
