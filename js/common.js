@@ -72,15 +72,16 @@ $(document).ready(function() {
 //      document.getElementById('Three').style.display = 'none';
 //     
 //}
-$(document).ready(function() {
-    $('#showhide').toggle(function() {
-        $('#showhide').text('ShowMore');
-        $('#One').hide();
-    }, function() {
-        $('#showhide').text('Hide');
-        $('#One').show();
-    });
-});
+//jquery for hide and show news division
+//$(document).ready(function() {
+//    $('#showhide').toggle(function() {
+//        $('#showhide').text('ShowMore');
+//        $('#One').hide();
+//    }, function() {
+//        $('#showhide').text('Hide');
+//        $('#One').show();
+//    });
+//});
 
 function changeContent() {
     document.getElementById('One').style.display = 'block';
