@@ -191,6 +191,11 @@ footer {
     list-style-type: none;
     padding: 10px 0 0 50px;
 }
+#container table tr td{
+    font-size: small;
+    list-style-type: none;
+    padding: 10px 0 0 50px;
+}
 .academic_ul  h4{
     font-size: 0.8em;
     padding: 35px 0 0 35px;
@@ -281,6 +286,10 @@ footer {
     left:550px;
     top:-485px;
 }
+
 .img-about{
     margin-bottom: 10px;
 }
+
+
+
