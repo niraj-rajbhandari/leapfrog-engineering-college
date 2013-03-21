@@ -70,9 +70,10 @@ x    text-decoration: underline;
     width: 100%;
 }
 .header ul {
-
-    float: right;
-    margin: 40px 185px 0 0 ;
+    position:relative;
+    top:35px;
+    left:255px;
+    
 }
 .header ul li {
     font-size: small;
@@ -177,20 +178,24 @@ footer {
 .news-body .news-title{
     height: auto;
 }
+.news-title .news-content{
+    height:400px;
+}
 #container{
     width: 600px;
     float: left;
     margin:0px 53px 0 0px;
 }
+#container table tr td{
+    font-size: small;
+    list-style-type: none;
+    padding: 10px 0 0 50px;
+}
 .academic_ul  h4{
     font-size: 0.8em;
     padding: 35px 0 0 35px;
 }
-.academic_ul  li{
-    font-size: small;
-    list-style-type: none;
-    padding: 10px 0 0 75px;
-}
+
 .explanation{
     padding-left: 20px;
 }
@@ -261,4 +266,21 @@ footer {
     position:relative;
     left:140px;
 }
-
+.btn-hide {
+    position:relative;
+    left:550px;
+    top:-485px;
+}
+.btn-hide3{
+    position: relative;
+    left:550px;
+    top:-485px;
+}
+.btn-hide2{
+    position: relative;
+    left:550px;
+    top:-485px;
+}
+.img-about{
+    margin-bottom: 10px;
+}
