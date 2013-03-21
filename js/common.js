@@ -92,27 +92,35 @@ function changeContent() {
 
 function loadNull() {
     document.getElementById('One').style.display = 'none';
+    document.getElementById('btn-One').style.display='none';
 }
 function changeContentShow() {
     document.getElementById('Two').style.display = 'block';
+    document.getElementById('btn-Two').style.display='block';
 
 }
 
 function loadNullValue() {
     document.getElementById('Two').style.display = 'none';
+    document.getElementById('btn-two').style.display='none';
 }
 function changeContentShowAgain() {
     document.getElementById('Three').style.display = 'block';
+    document.getElementById('btn-Three').style.display='block';
 
 }
 
 function loadNullValueAgain() {
     document.getElementById('Three').style.display = 'none';
+    document.getElementById('btn-Three').style.display='none';
 }
 function loadInitial() {
     document.getElementById('One').style.display = 'none';
     document.getElementById('Two').style.display = 'none';
     document.getElementById('Three').style.display = 'none';
+    document.getElementById('btn-One').style.display='none';
+    document.getElementById('btn-Two').style.display='none';
+    document.getElementById('btn-Three').style.display='none';
 
 }
 
