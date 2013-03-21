@@ -70,9 +70,10 @@ x    text-decoration: underline;
     width: 100%;
 }
 .header ul {
-
-    float: right;
-    margin: 40px 185px 0 0 ;
+    position:relative;
+    top:35px;
+    left:255px;
+    
 }
 .header ul li {
     font-size: small;
@@ -280,4 +281,6 @@ footer {
     left:550px;
     top:-485px;
 }
-
+.img-about{
+    margin-bottom: 10px;
+}
