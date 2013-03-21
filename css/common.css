@@ -177,6 +177,9 @@ footer {
 .news-body .news-title{
     height: auto;
 }
+.news-title .news-content{
+    height:400px;
+}
 #container{
     width: 600px;
     float: left;
@@ -260,5 +263,20 @@ footer {
 .btn-feedback{
     position:relative;
     left:140px;
+}
+.btn-hide {
+    position:relative;
+    left:550px;
+    top:-485px;
+}
+.btn-hide3{
+    position: relative;
+    left:550px;
+    top:-485px;
+}
+.btn-hide2{
+    position: relative;
+    left:550px;
+    top:-485px;
 }
 
