@@ -7,7 +7,7 @@ and open the template in the editor.
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
         <link href="css/common.css" rel="stylesheet">
 
         <script src="js/jquery-1.7.2.min.js"></script>
@@ -15,15 +15,50 @@ and open the template in the editor.
         <script src="js/common.js"></script>
     </head>
     <body onload="loadInitial();">
+
+
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" title="home" ><img src="img/logo_1.png"/></a>
+
+            </div>
+
+
+            <ul>
+                <li>
+                    <a href="index.html"  title="Home">Home</a>
+                </li>
+                <li>
+                    <a href="" class="active" title="Academic">Academic</a>
+                </li>
+                <li>
+                    <a href="news_events.html"  title="News and Events">News&Events</a>
+                </li>
+                <li>
+                    <a href="gallery.html"  title="Gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href=""  title="Facilities">Facilities</a>
+                </li>
+
+                <li>
+                    <a href="about_us.html"  title="About">About</a>
+                </li>
+                <li>
+                    <a href="contact_us.html" title="Contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+
         <div class="row-fluid">
-            <div class="span12">
-                <div class="span8">
-
+            <div id='main_container' class="span12">
+                <div id="container"class="span8">
                     <div class="news-body" >
-
+                        <hr>
                         <div  id="first"class="news-title">
-                            <h4>this is the latest news update....
-                                <input type="button" value="More" class=" btn btn-small pull-right" id="firstNews" onclick="changeContent();"></a></h4>
+                            <h5>this is the latest news update....
+                                <input type="button" value="More" class=" btn btn-small pull-right" onclick="changeContent();"></h5>
                             <hr>
 
                             <span id="lessPara"> the leapfrog college is one of the most well known college in the world</span>
@@ -45,9 +80,10 @@ and open the template in the editor.
 
 
                         </div>
+                        <hr>
                         <div  id="second" class="news-title" >
                             <h4>this is the earlier news update....
-                                <input type="button" value="More" class=" btn btn-small pull-right" id="firstNews" onclick="changeContentShow();"></h4>
+                                <input type="button" value="More" class=" btn btn-small pull-right" onclick="changeContentShow();"></h4>
                             <hr>
 
                             <span id="lessPara"> the leapfrog college is one of the most well known college in the world</span>
@@ -68,17 +104,20 @@ and open the template in the editor.
                             </span>
 
                         </div>
+                        <hr>
                         <div   id ="third"class="news-title">
                             <h4>this is the oldest news update....
-                                <input type="button" value="More" class=" btn btn-small pull-right" id="firstNews" onclick="changeContent();"></h4>
+                                <input type="button" value="More" class=" btn btn-small pull-right" id="firstNews" onclick="changeContentShowAgain();"></h4>
                             <hr>
                             <span id="lessPara"> the leapfrog college is one of the most well known college in the world</span>
 
                             <span id="Three">
+                                <span class="imgNews">
+                                    <img src="sports.jpeg">
+                                </span>
                                 we try to accomplish all our task thur the great efficiency. ;ladnfvakj jhnadfkk najnas jnalsfowe anvka fiaknd
                                 kasd akdfla, dvjk
                                 kdladf ankjdfaldfjajvn ajn adjvakgkadsjafdhk alfkna kdjvadflka dnvjakdaoi af
-                                ajdknadakf glanajkga fjakdfah 
                                 adf ajkfabdvknad fajn
                                 df ajkf ,adnfajf afn
                                 </br>
@@ -91,73 +130,113 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
-                <div class="span4">
-                    <div class="accordion " id="accordion2">
-                        <div class="accordion-group">
-                            <div class="accordion-heading accordian-head ">
-                                <a class="accordion-toggle accordion-style" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                    <h6>Most Recent <i class="icon-plus-sign pull-right"></i></h6>
-                                </a>
-                            </div>
-                            <div id="collapseOne" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-
-                                    <li><a href="" class="">Wisdom of The Hills</a></li>
-                                    <li><a href="" class="">NAGDAHA: A Visit to the Snake Lake</a></li>
-                                    <li><a href="" class="">By the Brown Muddy River</a></li>
-                                    <li><a href="" class="">Up & Over to The World Peace Pagoda</a></li>
-                                    <li><a href="" class="">Siddhi Shaligram Briddhashram</a></li>
+                <div class='recent_news_event' class="span4">
+                    <div class="span4">
+                        <div class="accordion " id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading accordian-head ">
+                                    <a class="accordion-toggle accordion-style" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                        <h6>Most Recent <i class="icon-plus-sign pull-right"></i></h6>
+                                    </a>
                                 </div>
-                            </div>
-                        </div>
+                                <div id="collapseOne" class="accordion-body collapse in">
+                                    <div class="accordion-inner">
 
-                        <div class="accordion-group">
-
-                            <div class="accordion-heading accordian-head">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                    <h6>Most Viewed <i class="icon-plus-sign pull-right"></i></h6>
-                                </a>
-                            </div>
-
-                            <div id="collapseTwo" class="accordion-body collapse">
-                                <div class="accordion-inner">
-
-                                    <li><a href="" class="">Wisdom of The Hills</a></li>
-                                    <li><a href="" class="">NAGDAHA: A Visit to the Snake Lake</a></li>
-                                    <li><a href="" class="">By the Brown Muddy River</a></li>
-                                    <li><a href="" class="">Up & Over to The World Peace Pagoda</a></li>
-                                    <li><a href="" class="">Siddhi Shaligram Briddhashram</a></li>
-
+                                        <li>Sports Week</li>
+                                        <li>Prize Distribution</li>
+                                        <li>First Terminal Exam</li>
+                                        <li>Result Published</li>
+                                        <li>Tour</li>
+                                    </div>
                                 </div>
                             </div>
 
-                        </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading accordian-head">
+                                    <a class="accordion-toggle event-head" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                        <h6>Our Mission<i class="icon-plus-sign pull-right"></i></h6>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+
+                                        <li>A passion for excellence</li>
+                                        <li>Compassionate commitment </li>
+                                        <li>Innovative Spirit </li>
+                                        <li>Ability to accept risks and challenges </li>
+                                        <li>Competence </li>
+                                        <li>Creativity  </li>
 
 
-                        <div class="accordion-group">
-                            <div class="accordion-heading accordian-head">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                    <h6>Most Commented <i class="icon-plus-sign pull-right"></i></h6>
-                                </a>
-                            </div>
-                            <div id="collapseThree" class="accordion-body collapse">
-                                <div class="accordion-inner">
-
-                                    <li><a href="" class="">Kutumba Gears Up for Concert and Album Release</a></li>
-                                    <li><a href="" class="">High in the Saddle: Horse and Windhorse in Nepal</a></li>
-                                    <li><a href="" class="">Interview with Gereon Wagener</a></li>
-                                    <li><a href="" class="">Beware of Babas!</a></li>
-                                    <li><a href="" class="">Abstract of an artist</a></li>
-
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+
+                            <div class="accordion-group">
+                                <div class="accordion-heading accordian-head">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                        <h6>Academic <i class="icon-plus-sign pull-right"></i></h6>
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+
+                                        <li><a href="" class="">BCA</a></li>
+                                        <li><a href="" class="">BIM</a></li>
+                                        <li><a href="" class="">Bsc. CSIT</a></li>
+                                        <li><a href="" class="">BIT</a></li>
+                                        <li><a href="" class="">PGDCA</a></li>
+                                        <li><a href="" class="">MCA</a></li>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div>
+                            <h5>Contact Information</h5>
+                            <hr>
+                            <div id="contact-info">
+                                <p>
+                                    Leapfrog College of Engineering
+                                </p>
+                                <p>
+                                    Kupandol, Lalitpur 
+                                </p>
+                                <p>
+                                    www.lfcoe.com
+                                </p>
+
+                                <p>
+                                    www.info@lfcoe.com 
+                                </p>
+
+                                <p>
+                                    +977-01-5534403,5534404 
+                                </p>     
+
+                                <p>
+                                    Notice Board No.: 1618014221365 
+                                </p>
+                                <p>
+                                    GPO: 1234 
+                                </p>
+                            </div>
+
+
+                        </div>
 
                     </div>
                 </div>
             </div>
         </div>
+        <!-- footer -->
+        <footer>
+            <small>&COPY; LEAPFROG COLLEGE OF ENGINEERING</small>
+        </footer>
 
+        <!-- close footer-->
     </body>
 </html>
