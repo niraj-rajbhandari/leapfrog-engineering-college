@@ -242,7 +242,7 @@ footer {
     font-size:11pt;
 }
 .news-title .news-content{
-    height:400px;
+    height:500px;
 }
 #container{
     width: 600px;
@@ -342,12 +342,12 @@ footer {
 .btn-hide3{
     position: relative;
     left:550px;
-    top:-485px;
+    top:-585px;
 }
 .btn-hide2{
     position: relative;
     left:550px;
-    top:-485px;
+    top:-605px;
 }
 
 .img-about{
