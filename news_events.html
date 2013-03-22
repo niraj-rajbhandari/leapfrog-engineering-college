@@ -31,7 +31,7 @@ and open the template in the editor.
                 <li>
                     <a href="academic.html" title="Academic">Academic</a>
                 </li>
-                
+
                 <li>
                     <a href="gallery.html"  title="Gallery">Gallery</a>
                 </li>
@@ -57,17 +57,20 @@ and open the template in the editor.
                         <hr>
                         <div  id="first" class="news-title">
                             <h5>Hurry up to Grab the Scholarship for Bachelors and Masters level Study...
-                                <input type="button" value="Show" class="btn-show btn btn-small pull-right" onclick="changeContent();"></h5>
+                                <input type="button" value="Show" class="btn-show btn btn-small pull-right" onclick="changeContent();"><br/>
+                                <input type="button" value="Hide" id="btn-One" class="btn-hide btn btn-small btn-inverse" onclick="loadNull();">
+                            </h5>
                             <hr>
 
                             <span id="lessPara"> the leapfrog college is one of the most well known college in the world</span>
 
-                                <span id="lessPara">
-                                    The <b>Leapfrog College of Engineering</b> Announces <b>Full Scholarship</b>
-                                    Hurry up to catch this opportunity....
-                                </span>
+                            <span id="lessPara">
+                                The <b>Leapfrog College of Engineering</b> Announces <b>Full Scholarship</b>
+                                Hurry up to catch this opportunity....
+                            </span>
 
-                                <span id="One" style="display: none;">
+                            <span id="One" style="display: none;">
+                                <div class="news-content">
                                     The Leapfrog College of Engineering(LFCOE) announces full scholarships for college students pursuing careers in the software industries. 
                                     Students of Engineering, Architecture, Computer Technology, Landscape Architecture/Design for both masters and Bachelors
                                     Turfgrass Management or a related horticultural field are welcomed and encouraged to apply.
@@ -77,19 +80,23 @@ and open the template in the editor.
                                     <b>Hurry Up!! to Grab this Opportunity</b>
                                     The form submission deadline is posted below<br/>
                                     <h5>2013/03/29,Friday</h5> for more information visit <b>Contact us</b>
-                                </span>
-                            <input type="button" value="Hide" id="btn-One" class="btn-hide btn btn-small btn-inverse" onclick="loadNull();">
+                                </div>
+
+                            </span>
+
 
 
                         </div>
                         <hr>
                         <div  id="second" class="news-title" >
                             <h5>The Leapfrog College of Engineering is Organizing LFTech Talk
-                                <input type="button" value="Show" class="btn-show2 btn btn-small pull-right" onclick="changeContentShow();"></h5>
+                                <input type="button" value="Show" class="btn-show2 btn btn-small pull-right" onclick="changeContentShow();"><br/>
+                                <input type="button" id="btn-Two" value="Hide" class="btn-hide2 btn btn-small btn-inverse" onclick="loadNullValue();">
+                            </h5>
                             <hr>
 
                             <span id="lessPara">This is the era of <b>Technology</b>, we are trying to convey this message
-                            to all mankind through this program.
+                                to all mankind through this program.
                             </span>
 
                             <span id="Two">
@@ -110,13 +117,15 @@ and open the template in the editor.
 
 
                             </span>
-                            <input type="button" id="btn-Two" value="Hide" class="btn-hide2 btn btn-small btn-inverse" onclick="loadNullValue();">
+
                         </div>
                         <hr>
                         <div   id ="third" class="news-title">
                             <h5>Prize Distribution of Sports-Week
-                                <input type="button" value="Show" class="btn-show3  btn btn-small pull-right" id="firstNews" onclick="changeContentShowAgain();"></h5>
-                            <hr>
+                                <input type="button" value="Show" class="btn-show3  btn btn-small pull-right" id="firstNews" onclick="changeContentShowAgain();"><br/>
+                                <input type="button" id="btn-Three" value="Hide" class="btn-hide3  btn btn-small btn-inverse" onclick="loadNullValueAgain();">
+                            </h5>
+                                <hr>
                             <span id="lessPara"> <b>White-Carrot</b> team won the First prize this year</span>
 
                             <span id="Three">
@@ -133,7 +142,7 @@ and open the template in the editor.
                                     </br>
                                 </div>
                             </span>
-                            <input type="button" id="btn-Three" value="Hide" class="btn-hide3  btn btn-small btn-inverse" onclick="loadNullValueAgain();">
+
                         </div>
                     </div>
                 </div>

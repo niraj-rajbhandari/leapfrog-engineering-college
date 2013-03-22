@@ -241,9 +241,7 @@ footer {
 .news-body h5{
     font-size:11pt;
 }
-.news-title .news-content{
-    height:400px;
-}
+
 #container{
     width: 600px;
     float: left;
@@ -316,12 +314,7 @@ footer {
     height:200px;
     
 }
-.portrait{
-    
-}
-.portrait1{
-    
-}
+
 .portrait img,.portrait1 img{
     width:300px;
     height:300px;
@@ -334,21 +327,12 @@ footer {
     position:relative;
     left:140px;
 }
-.btn-hide {
+.btn-hide,.btn-hide2,.btn-hide3 {
     position:relative;
     left:550px;
-    top:-342px;
+    top:-20px;
 }
-.btn-hide3{
-    position: relative;
-    left:550px;
-    top:-485px;
-}
-.btn-hide2{
-    position: relative;
-    left:550px;
-    top:-485px;
-}
+
 
 .img-about{
     margin-bottom: 10px;
@@ -363,7 +347,7 @@ footer {
     width:960px;
     height:500px; 
     float:left;
-/*    display: none;*/
+
 }
 
 
