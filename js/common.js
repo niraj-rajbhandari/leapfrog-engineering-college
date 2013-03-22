@@ -88,6 +88,10 @@ function loadInitial() {
 
 }
 
+function showHideMap()
+{
+    document.getElementById('googleMap').style.display = 'block';
+}
 //for academic.html
 function init() {
 	$('.computer').click(function() {
