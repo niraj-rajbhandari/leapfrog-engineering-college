@@ -357,6 +357,12 @@ footer {
     position: relative;
     top:5px;
 }
-
+#googleMap
+{
+    margin: 250px 0 0 150px;
+    width:960px;
+    height:500px; 
+    float:left
+}
 
 
