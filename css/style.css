@@ -206,3 +206,31 @@ footer {
     border-top: dotted 1px #ddd;
 }
 
+/*presentation content*/
+#show-up{
+    margin-top:60px;
+}
+
+#show-up h1{
+    padding-left:335px;
+    padding-bottom: 100px;
+}
+
+#show-up p{
+    font-size: 10em;
+    padding:15px 335px 115px;
+    text-align: justify;
+}
+
+.simple{
+    color:#000000;
+    opacity:0.3;
+}
+.clean{
+    color:#000000;
+    opacity:0.6;
+}
+.effective{
+    color:#000000;
+    opacity:0.9;
+}

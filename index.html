@@ -13,8 +13,22 @@
             $('.carousel').carousel({
                 interval: 4000
             });
+            var counter = 0;
+            if (counter === 0) {
+                $('div:not(#show-up) ').css('display', 'none');
+
+                $('footer').css('display', 'none');
+                $('body').keydown(function() {
+                    $('#show-up').slideUp(1400).css('display', 'hidden');
+                    // $('#show-up').animate({ opacity :'toggle' }, 'slow').css('display',hidden);
+                    $('div:not(#show-up) ').css('display', '');
+                });
+                counter++;
+            }
 
         });
+
+
     </script>
 
     <link href="css/style.css" rel="stylesheet">
@@ -57,6 +71,12 @@
 
     </div>
 
+    <div id="show-up">
+        <h1>OUR GOALS WERE:</h1>
+        <p class="simple">SIMPLE</p>
+        <p class="clean"> CLEAN</p>
+        <p class="effective"> EFFECTIVE</p>
+    </div>
 
     <div id='slider'>
         <div class="row-fluid">
@@ -72,7 +92,7 @@
                         <div class="item slider"><img src="img/slide_cafeteria.jpg" alt=""  /></div>
                         <div class="item slider"><img src="img/slide_basketball.jpg" alt="" /></div>
                         <div class="item slider"><img src="img/slide_graduation.jpg" alt="" width="960px" /></div>
-                        
+
 
 
                     </div>
@@ -197,30 +217,30 @@
                         <h5>Contact Information</h5>
                         <hr>
                         <div id="contact-info">
-                             <p>
-                                    Leapfrog College of Engineering
-                                </p>
-                                <p>
-                                    Kupandol, Lalitpur 
-                                </p>
-                                <p>
-                                    www.lfcoe.com
-                                </p>
+                            <p>
+                                Leapfrog College of Engineering
+                            </p>
+                            <p>
+                                Kupandol, Lalitpur 
+                            </p>
+                            <p>
+                                www.lfcoe.com
+                            </p>
 
-                                <p>
-                                    www.info@lfcoe.com 
-                                </p>
+                            <p>
+                                www.info@lfcoe.com 
+                            </p>
 
-                                <p>
-                                    +977-01-5534403,5534404 
-                                </p>     
+                            <p>
+                                +977-01-5534403,5534404 
+                            </p>     
 
-                                <p>
-                                    Notice Board No.: 1618014221365 
-                                </p>
-                                <p>
-                                    GPO: 1234 
-                                </p>
+                            <p>
+                                Notice Board No.: 1618014221365 
+                            </p>
+                            <p>
+                                GPO: 1234 
+                            </p>
                         </div>
 
 
@@ -241,6 +261,7 @@
     <!-- close footer-->
 
 </body>
+
 
 </html>
 
